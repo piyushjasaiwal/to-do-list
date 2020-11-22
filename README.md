@@ -11,8 +11,12 @@ this is how the final list looks like after adding tasks to it
 \
 \
 the tasks that are completed can be striked off with the help of a check button which stikes off the task and after that the task can be deleted using the delete button
-\this is how list looks like when the completed task is striked off
+\
+this is how list looks like when the completed task is striked off
 \
 ![](https://github.com/piyushjasaiwal/to-do-list/blob/master/todolist/screenshots/completed_task.PNG)
-\this is the how the list updates itself after the task is deleted from the list
-\![](https://github.com/piyushjasaiwal/to-do-list/blob/master/todolist/screenshots/deleting_the_task.PNG)
+\
+\
+this is the how the list updates itself after the task is deleted from the list
+\
+![](https://github.com/piyushjasaiwal/to-do-list/blob/master/todolist/screenshots/deleting_the_task.PNG)
