@@ -1,6 +1,2 @@
 # to-do-list
-## dadak
-### dadak
-#### dadak
-##### dadak
-###### dadak
+this app is created with the help of react framework
