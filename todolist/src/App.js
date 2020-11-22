@@ -6,15 +6,20 @@ import './App.css';
 import Form from './components/Form.js'
 import ToDoList from "./components/ToDoList"
 function App() {
-  //use effect
-
-  // useEffect
+  
 
   const [inputText,setInputText] = useState("");
   const [todos,setTodos] = useState([]); 
   const [status, setStatus] = useState("all");
   const [filterTodos, setFilterToDos] = useState([]);
 //functions
+
+  //use effect
+  useEffect(() => {
+    // console.log("hey");
+    filterHandler();
+  },[todos,status]);
+  // useEffect
 
 const filterHandler = () => {
   switch(status){
@@ -37,8 +42,8 @@ const filterHandler = () => {
       <header>
           <h1>To - Do List</h1>
       </header>
-      <Form inputText = {inputText} todos = {todos} setTodos = {setTodos} setInputText = {setInputText}/>
-      <ToDoList setTodos = {setTodos} todos = {todos} setStatus = {setStatus} />
+      <Form setStatus = {setStatus} inputText = {inputText} todos = {todos} setTodos = {setTodos} setInputText = {setInputText} />
+      <ToDoList setTodos = {setTodos} todos = {todos}  filterTodos = {filterTodos} />
     </div>
   );
 }
