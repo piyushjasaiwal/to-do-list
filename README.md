@@ -20,3 +20,12 @@ this is how list looks like when the completed task is striked off
 this is the how the list updates itself after the task is deleted from the list
 \
 ![](https://github.com/piyushjasaiwal/to-do-list/blob/master/todolist/screenshots/deleting_the_task.PNG)
+\
+## showing task according to the category
+the list can show task according to the three categories completed, uncompleted or all
+### all
+![](https://github.com/piyushjasaiwal/to-do-list/blob/master/todolist/screenshots/all_mode.PNG)
+### completed 
+![](https://github.com/piyushjasaiwal/to-do-list/blob/master/todolist/screenshots/completed_mode.PNG)
+### uncompleted
+![](https://github.com/piyushjasaiwal/to-do-list/blob/master/todolist/screenshots/uncompleted_mode.PNG)
